@@ -10,7 +10,7 @@ function App() {
   //   }
   //   console.log(typeof prevFlag);
   // }
-  const [content,setContent] = useState(<p></p>);
+  const [content,setContent] = useState(<p id="para"></p>);
   
   const handleClick = ()=>{
     setContent(<p id="para">"Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy"</p>);
@@ -18,9 +18,9 @@ function App() {
   return (
     <div id="main">
       {/* // Do not alter the main div */}
-      {content}
-      <button id="click" onClick={handleClick}>Click</button>
       
+      <button id="click" onClick={handleClick}>Click</button>
+      {content}
       {/* {content} */}
     </div>
   );

@@ -18,8 +18,9 @@ function App() {
   return (
     <div id="main">
       {/* // Do not alter the main div */}
-      <button id="click" onClick={handleClick}>Click</button>
       <p id="para">{content}</p>
+      <button id="click" onClick={handleClick}>Click</button>
+      
       {/* {content} */}
     </div>
   );

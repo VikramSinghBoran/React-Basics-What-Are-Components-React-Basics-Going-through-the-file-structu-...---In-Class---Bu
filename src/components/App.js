@@ -13,7 +13,7 @@ function App() {
   const [content,setContent] = useState();
   
   const handleClick = ()=>{
-    setContent(<p id="para">"Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy"</p>);
+    setContent(<p id="para">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p>);
   }
   return (
     <div id="main">

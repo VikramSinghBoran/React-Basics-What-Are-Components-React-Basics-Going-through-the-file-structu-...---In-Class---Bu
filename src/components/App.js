@@ -10,7 +10,7 @@ function App() {
   //   }
   //   console.log(typeof prevFlag);
   // }
-  const [content,setContent] = useState(<p id="para"></p>);
+  const [content,setContent] = useState(<p></p>);
   
   const handleClick = ()=>{
     setContent(<p id="para">"Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy"</p>);
